@@ -1,5 +1,5 @@
 body {
-
+    background: #1F2937;
 }
 
 .header {
@@ -7,17 +7,20 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
+    color: #E5E7EB;
 }
 
 h1 {
-    margin: 10px;
-    padding: 1px;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
 }
 
-ul, .header-links {
+ul {
     list-style-type: none;
     display: flex;
     gap: 15px;
-    padding: 1px;
-    margin: 10px;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
 }
