@@ -17,6 +17,10 @@ h1 {
     font-size: 18px;
 }
 
+h2 {
+    font-size: 36px;
+
+}
 ul {
     list-style-type: none;
     display: flex;
@@ -30,6 +34,12 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 10px;
+}
+
+.section-two {
+    background-color: white;
+    color: #1F2937;
+
 }
 
 .image-placeholder {
@@ -46,4 +56,10 @@ button {
     color: #E5E7EB;
     border-radius: 5px;
     border-style: none;
+}
+
+h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
 }
