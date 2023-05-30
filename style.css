@@ -7,6 +7,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
+    flex-wrap: wrap;
     color: #E5E7EB;
 }
 
@@ -23,4 +24,19 @@ ul {
     padding: 10px;
     margin: 0;
     font-size: 18px;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.image-placeholder {
+    display: flex;
+    background: grey;
+    height: 150px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
 }
