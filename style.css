@@ -13,6 +13,7 @@ body {
     justify-content: space-between;
     align-content: center;
     flex-wrap: wrap;
+    padding: 0 90px 0;
 }
 
 h1 {
@@ -35,7 +36,7 @@ ul {
 }
 
 .section-one {
-    padding: 50px;
+    padding: 90px;
     margin: 0;
     display: flex;
 }
@@ -55,7 +56,7 @@ ul {
 
 }
 .section-two {
-    padding: 50px;
+    padding: 90px;
     margin: 0;
     background-color: white;
     color: #1F2937;
@@ -69,8 +70,8 @@ ul {
 .image-placeholder {
     display: flex;
     background: grey;
-    height: 150px;
-    width: 300px;
+    height: 200px;
+    width: 350px;
     justify-content: center;
     align-items: center;
 }
@@ -89,7 +90,7 @@ h3 {
 }
 
 .section-three {
-    padding: 50px;
+    padding: 90px;
     margin: 0;
     background-color: #E5E7EB;
     color: #1F2937;
@@ -97,7 +98,7 @@ h3 {
 }
 
 .section-four {
-    padding: 50px;
+    padding: 90px;
     margin: 0;
     background-color: white;
     color: #1F2937;
@@ -111,7 +112,6 @@ h3 {
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
 }
 
 .box {
@@ -123,6 +123,7 @@ h3 {
 
 footer {
     text-align: center;
+    padding: 50px;
 }
 
 .box-list {
@@ -133,4 +134,12 @@ footer {
     text-align: center;
     font-size: 12px;
     gap: 5px;
+}
+
+.sign-up-box-left {
+    display: flex;
+}
+
+.sign-up-box-right {
+    display: flex;
 }
