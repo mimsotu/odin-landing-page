@@ -29,7 +29,7 @@ h2 {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
     padding: 10px;
     margin: 0;
     font-size: 18px;
@@ -56,7 +56,7 @@ ul {
 
 }
 .section-two {
-    padding: 90px 200px;
+    padding: 60px 200px 100px;
     margin: 0;
     background-color: white;
     color: #1F2937;
@@ -127,10 +127,6 @@ h3 {
     border: 3px solid #3882F6;
 }
 
-footer {
-    text-align: center;
-    padding: 50px;
-}
 
 .box-list {
     display: flex;
@@ -183,4 +179,9 @@ p {
     padding: 5px 10px 0;
     margin: 0;
     font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
 }
