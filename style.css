@@ -175,6 +175,8 @@ blockquote {
 figcaption {
     display: flex;
     justify-content: flex-end;
+    padding-right: 50px;
+    font-weight: 700;
 }
 
 p {
