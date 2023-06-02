@@ -25,10 +25,11 @@ h1 {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    justify-content: center;
     padding: 10px;
     margin: 0;
     font-size: 18px;
+    gap: 15px;
 }
 
 .section-one {
